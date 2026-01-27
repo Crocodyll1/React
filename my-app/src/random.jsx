@@ -4,4 +4,4 @@ function Random(){
     
     return <h3 style={{'background-color':'#549039'}}>random number is : {Math.round(number)}</h3>
 }
-export default Random;
+export default Random;localStorage
