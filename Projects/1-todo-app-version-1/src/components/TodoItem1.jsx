@@ -6,15 +6,15 @@ function TodoItem1() {
     return (
         <div className="container text-center">
 
-            <div class="row">
+            <div className="row">
                 <div class="col-4">
                    {TodoName}
                 </div>
-                <div class="col-4">
+                <div className="col-4">
                    { TodoDate }
                 </div>
-                <div class="col-2">
-                    <button type="button" class="btn btn-danger">Delete</button>
+                <div className="col-2">
+                    <button type="button" className="btn btn-danger">Delete</button>
                 </div>
 
 
