@@ -6,7 +6,7 @@ function TodoItem1() {
     return (
         <div className="container">
 
-            <div className="row">
+            <div className="row sk-row">
                 <div class="col-4">
                    {TodoName}
                 </div>
