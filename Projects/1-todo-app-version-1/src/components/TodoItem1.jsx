@@ -4,7 +4,7 @@ function TodoItem1() {
     let TodoDate = "4/10/2023";
 
     return (
-        <div className="container text-center">
+        <div className="container">
 
             <div className="row">
                 <div class="col-4">

@@ -11,10 +11,9 @@ h1 {
 
 
 }
-*{
-    background-color: rgb(255, 255, 255);
-}
-.container text-center{
-    text-align: center;
-    background-color: lightcoral;
+
+
+.items-container{
+    text-align: left;
+    /* background-color: rebeccapurple; */
 }
