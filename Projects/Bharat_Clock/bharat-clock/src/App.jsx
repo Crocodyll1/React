@@ -6,7 +6,10 @@ import './App.css'
 function App() {
 
   return (
-    <h2>Bharat Clock</h2>
+    <center>
+      <h2>Bharat Clock</h2>
+      
+      </center>
     
   )
 }
