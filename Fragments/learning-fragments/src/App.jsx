@@ -1,4 +1,5 @@
 import Fooditems from "./components/Fooditems";
+import ErrorMsg from "./components/ErrorMessage"
 import "bootstrap/dist/css/bootstrap.min.css";  
 import './App.css'
 
@@ -14,7 +15,7 @@ function App() {
    <>
       <h1>Healthy Food</h1>
       <ul className ="list-group">
-        {foodItems.length === 0 && <h3>I am still hungry</h3>}
+        <ErrorMsg></ErrorMsg>
         <Fooditems></Fooditems>
         
 
